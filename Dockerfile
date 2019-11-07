@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER "Puspak"
+MAINTAINER "Puspak Dash"
 RUN apt-get update && \
         apt-get install -y nginx wget && apt-get clean && \
 	rm -rf /tmp/* /var/tmp/* && rm -f /var/www/html/*.html
